@@ -15,8 +15,6 @@ We also built a web application around the model so users can enter financial in
 
 ## Repository Structure
 
-## Repository Structure
-
 ```text
 MLSN_Project_Fall_2025/
 │
