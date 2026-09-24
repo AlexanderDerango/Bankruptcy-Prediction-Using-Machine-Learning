@@ -13,6 +13,43 @@ The model uses 18 financial indicators as inputs and performs a binary classific
 
 We also built a web application around the model so users can enter financial information and receive a prediction and probability estimate.
 
+## Repository Structure
+
+## Repository Structure
+
+```text
+MLSN_Project_Fall_2025/
+│
+├── Backend (Python/Flask)
+│   ├── app.py              # Main Flask application
+│   ├── config.py           # Configuration management
+│   ├── train_model.py      # Model training script
+│   ├── requirements.txt    # Python dependencies
+│   └── model.pkl           # Trained model (generated)
+│
+├── Frontend (React/JavaScript)
+│   ├── public/
+│   │   └── index.html      # HTML template
+│   ├── src/
+│   │   ├── index.js        # React entry point
+│   │   ├── index.css       # Global styles
+│   │   ├── App.js          # Root component
+│   │   ├── App.css         # App styles
+│   │   └── components/
+│   │       ├── PredictionForm.js
+│   │       ├── PredictionForm.css
+│   │       ├── ResultsDisplay.js
+│   │       └── ResultsDisplay.css
+│   ├── package.json        # NPM dependencies
+│   └── .env                # Environment variables (optional)
+│
+└── Documentation
+    ├── README.md           # Main documentation
+    ├── QUICK_START.md      # Quick setup guide
+    ├── DEPLOYMENT.md       # Deployment guide
+    ├── PROJECT_COMPLETION.md  # Completion summary
+    └── DEVELOPER_GUIDE.md  # Developer documentation
+
 ## Features
 
 * Machine learning bankruptcy classification
