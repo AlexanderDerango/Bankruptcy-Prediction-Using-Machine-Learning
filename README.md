@@ -47,6 +47,7 @@ MLSN_Project_Fall_2025/
     ├── DEPLOYMENT.md       # Deployment guide
     ├── PROJECT_COMPLETION.md  # Completion summary
     └── DEVELOPER_GUIDE.md  # Developer documentation
+```
 
 ## Features
 
